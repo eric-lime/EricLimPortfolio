@@ -262,6 +262,14 @@ h3{
         position: relative;
         left: -3em;
     }
+    
+    .intro-image-pie{
+        grid-area: img;
+        max-width: 450px;
+        max-height: 300px;
+        position: relative;
+        left: -3em;
+    }
 
     .section-subtitle-intro{
         align-self: start;
