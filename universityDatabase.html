@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale=1.0">
+        <title>University Database!</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+        <link rel="stylesheet" href="css/styles01.css">
+    </head>
+    <body>
+        <!--Header-->
+        <header class="header">
+            <div class="logo">
+                <img src="images/Logo.png" alt="My logo">
+            </div>
+            <button class="nav-toggle" aria-lavel="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="index.html#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="index.html#work" class="nav-link">My Services</a></li>
+                    <li class="nav-item"><a href="index.html#about" class="nav-link">About Me</a></li>
+                    <li class="nav-item"><a href="index.html#work" class="nav-link">Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="intro">
+            <h1 class="section-title section-title-intro"><strong>University Database!</strong></h1>
+            <p class="section-subtitle section-subtitle-intro">The relationships within an education!</p>
+            <img src="images/Universtiy_Database ER Diagram.png" alt="cover image of University Database" class="intro-image">
+        </section>
+
+        <div class="portfolio-item-individual">
+            <p>For this project I wanted to create my own fictional university database and explore the relationships within an educational system.</p>            
+            <p>Step-by-Step: I first researched on a dataset which I received that contained relational information of previous students in order to get a sense of what a database for students would entail. Next, I proposed a ER diagram through Figma that allowed me to further understand the entities and relationships which a student database would possess. I then used the ER diagram to create tables within Excel and filled the primary/foreign keys and attributes accordingly. Finally, I was able to take the tables and implement them within MySQL with the use of DDL and DML. </p>            
+            <p>In order to understand relationships between the tables, I was able to perform simple queries by using DQL to retieve desired information such as "Which student performed the best within a specific course" or "Who is the manager of a certain club?".</p>        
+            <p>This was a very fun project that allowed me to become more familiar with ER diagrams such as identifying cardinality relationships and total vs partial participation within relationships. As far as SQL and database management goes, I really enjoyed getting more expereince in querying and how to return a desired result for proposed analytical questions.</p>    
+            <p>Overall, an exciting and intruiging project! Check out the links below for my designs and implementation!</p>
+            <h4 class="portfolio-item-link"><a href="https://www.figma.com/file/w9crdrB1kV8dTyVOh2rcIO/Universtiy_Database-ER-Diagram" target="_blank">ER Diagram</a></h4>
+            <h4 class="portfolio-item-link"><a href="https://1drv.ms/x/s!AqKP8jL9hG7RgTBuW06gyVHQ9S4W?e=QfxVua" target="_blank">Excel Spreadsheet</a></h4>
+            <h4 class="portfolio-item-link"><a href="https://github.com/eric-lime/UniversityDatabase.git" target="_blank">SQL Code</a></h4>
+        </div>
+
+        <!--Footer-->
+        <footer class="footer">
+            <a href="mailto:elim699@gmail.com" class="footer-link">elim699@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list-item">
+                    <a href="https://codepen.io/eric-lime" target=_blank class="social-list-link"><i class="fab fa-codepen"></i></a>
+                </li>
+                <li class="socail-list-item">
+                    <a href="https://www.linkedin.com/in/ericlim2
+                    " target = _blank class="social-list-link"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="social-list-item">
+                    <a href="https://github.com/eric-lime" target=_blank class="social-list-link"><i class="fab fa-github"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        <script src="js/index.js"></script>
+    </body>
